@@ -1,32 +1,14 @@
 {
-  "EDshWM3jBy2YUszMiFLAFLx3WkbtqR9An7JZzvg22R1P": {
-    "name": "Deployer Admin",
-    "image": "https://pbs.twimg.com/profile_images/1393399819213983746/2a8l5muc_400x400.png",
-    "description": "",
-    "background": ""
+  "26GkpCUiwMKkdU9GfxCaJeS7aSbYBWoE8rT4NT2gSMah": {
+    "name": "FeatherNFT",
+    "image": "https://pbs.twimg.com/profile_images/1448766278475427845/gJQRWC4F_400x400.jpg",
+    "description": "FeatherNFT Candy-machine Wallet",
+    "background": "https://i.ibb.co/WBbvJ3v/Horizontal-collection-card.png"
   },
-  "CduMjFZLBeg3A9wMP3hQCoU1RQzzCpgSvQNXfCi1GCSB": {
-    "name": "Bartosz Lipinski",
-    "image": "https://pbs.twimg.com/profile_images/1393353972371623938/ZMWvvptg_400x400.jpg",
-    "description": "",
-    "background": ""
-  },
-  "44kiGWWsSgdqPMvmqYgTS78Mx2BKCWzduATkfY4biU97": {
-    "name": "Jordan Prince",
-    "image": "https://pbs.twimg.com/profile_images/1393399819213983746/2a8l5muc_400x400.png",
-    "description": "",
-    "background": ""
-  },
-  "3yp9iTsCgZoBsXhtRLB8cWHNcTDeR6VJniRuDrHNTuxU": {
-    "name": "James Madison",
-    "image": "https://pbs.twimg.com/profile_images/1393353972371623938/ZMWvvptg_400x400.jpg",
-    "description": "",
-    "background": ""
-  },
-  "SoL351y4uKWtbH14AU1Rhiao96aBM4u57bMi5Vj2XJc": {
-    "name": "Solana",
-    "image": "https://pbs.twimg.com/profile_images/1299400345144049665/sPxnVXa7_400x400.jpg",
-    "description": "Account used by Solana to mint official NFTs",
-    "background": ""
+  "8t6mrG6rZshJfuZepa35ctcVr1dVQMzMJ5STe7BqCpCx": {
+    "name": "Wmadfaa",
+    "image": "https://i.ibb.co/NsRVNBf/logo-12.png",
+    "description": "FeatherNFT Developer/Artist",
+    "background": "https://i.ibb.co/WBbvJ3v/Horizontal-collection-card.png"
   }
 }

@@ -1,6 +1,6 @@
 export const data = {
   headContent: {
-    title: 'We are Metaplex',
+    title: 'We are FeatherNFT',
     subtitle: 'About Us',
     bannerImage: '/main-banner.png',
   },

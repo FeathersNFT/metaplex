@@ -67,7 +67,8 @@ export const ENDPOINTS = [
   },
 ];
 
-const DEFAULT = ENDPOINTS[0].endpoint;
+const DEFAULT_ENDPOINT = ENDPOINTS[4];
+const DEFAULT = DEFAULT_ENDPOINT.endpoint;
 
 interface ConnectionConfig {
   connection: Connection;
@@ -82,7 +83,7 @@ const ConnectionContext = React.createContext<ConnectionConfig>({
   endpoint: DEFAULT,
   setEndpoint: () => { },
   connection: new Connection(DEFAULT, 'recent'),
-  env: ENDPOINTS[0].name,
+  env: DEFAULT_ENDPOINT.name,
   tokens: [],
   tokenMap: new Map<string, TokenInfo>(),
 });
@@ -95,7 +96,7 @@ export function ConnectionProvider({ children = undefined as any }) {
 
   const [savedEndpoint, setEndpoint] = useLocalStorageState(
     'connectionEndpoint',
-    ENDPOINTS[0].endpoint,
+    DEFAULT_ENDPOINT.endpoint,
   );
   const endpoint = queryEndpoint || savedEndpoint;
 
@@ -105,7 +106,7 @@ export function ConnectionProvider({ children = undefined as any }) {
   );
 
   const env =
-    ENDPOINTS.find(end => end.endpoint === endpoint)?.name || ENDPOINTS[0].name;
+    ENDPOINTS.find(end => end.endpoint === endpoint)?.name || DEFAULT_ENDPOINT.name;
 
   const [tokens, setTokens] = useState<TokenInfo[]>([]);
   const [tokenMap, setTokenMap] = useState<Map<string, TokenInfo>>(new Map());

@@ -38,9 +38,11 @@ export const AuctionListView = () => {
   return (
     <>
       <Banner
-        src="/main-banner.svg"
-        headingText="The amazing world of Metaplex."
-        subHeadingText="Buy exclusive Metaplex NFTs."
+        bgSrc="/banner-bg.png"
+        src="/main-banner.png"
+        mobileSrc="/mobile-banner.png"
+        headingText="The amazing world of Feathers."
+        subHeadingText="Buy exclusive Feathers NFTs."
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg
       />

@@ -46,6 +46,11 @@ export const ENDPOINTS = [
     ChainId: ChainId.MainnetBeta,
   },
   {
+    name: 'mainnet-beta (feathernft)' as ENV,
+    endpoint: 'https://white-aged-log.solana-mainnet.quiknode.pro/',
+    ChainId: ChainId.MainnetBeta,
+  },
+  {
     name: 'mainnet-beta (Solana)' as ENV,
     endpoint: 'https://api.mainnet-beta.solana.com',
     ChainId: ChainId.MainnetBeta,
@@ -67,7 +72,7 @@ export const ENDPOINTS = [
   },
 ];
 
-const DEFAULT_ENDPOINT = ENDPOINTS[4];
+const DEFAULT_ENDPOINT = ENDPOINTS[1];
 const DEFAULT = DEFAULT_ENDPOINT.endpoint;
 
 interface ConnectionConfig {

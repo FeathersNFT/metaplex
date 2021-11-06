@@ -46,11 +46,6 @@ export const ENDPOINTS = [
     ChainId: ChainId.MainnetBeta,
   },
   {
-    name: 'mainnet-beta (feathernft)' as ENV,
-    endpoint: 'https://white-aged-log.solana-mainnet.quiknode.pro/',
-    ChainId: ChainId.MainnetBeta,
-  },
-  {
     name: 'mainnet-beta (Solana)' as ENV,
     endpoint: 'https://api.mainnet-beta.solana.com',
     ChainId: ChainId.MainnetBeta,
